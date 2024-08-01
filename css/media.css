@@ -1,0 +1,334 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* header start */
+    .header{
+        padding: 10px 0;
+      }
+      .navbar_btn{
+        font-size: 15px;
+      }
+      .logo {
+        width: 40px;
+    }
+    .menu ul li a {
+        align-items: center;
+        padding: 10px 0 0px !important;
+        text-align: center;
+        margin-top: 10px;
+    }
+    /* header end */        
+    /* slider section start here*/
+    .sli_title {
+        font-size: 18px;
+    }
+    .slider_para {
+        padding: 30px 0;
+    }
+    .slider_text {
+        padding-right: 0;
+    }
+    /* slider section end here */
+    /* about us section start here */
+    .c_padding{
+        padding: 30px 0 50px;
+    }
+    .about_img img {
+        border-radius: 4px;
+        height: 210px;
+    }
+    .about_title {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .c_title {
+        margin-bottom: 15px;
+    }
+    .about_btn {
+        width: 235px;
+        margin-left: 30px;
+    }
+    /* about us section end here */
+    /* contact start here */
+    .contact {
+        height: 765px;
+    }
+    .contact .container{
+        height: 0;
+    }
+    .contact_btn {
+        width: 220px;
+        margin-left:39px;
+    }
+    .contact_text {
+        margin-right: 0;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .contact_input {
+        width: 100%;
+    }
+    #col {
+        width: 100%;
+        background-color: var(--bg);
+    }
+    .b_btn {
+        width: 69%;
+    }
+    /* contact end here */
+     /* footer start */
+     .list-inline-item_foot a {
+        padding: 5px;
+        font-size: 20px;
+    }
+    .fbottom_left {
+        padding: 0 39px;
+    }
+    .fbottom_left {
+       margin-left: 8px;
+    }
+    .fbottom_left span {
+      margin-left: 94px;
+    }
+     .single_right {
+        padding: 0px 102px;
+    }
+    /* footer end */
+   /* arrow button */
+    .arrows i {
+        border-radius: 30px;
+        font-size: 30px;
+        background-color: yellow;
+    }
+       
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header start */
+    /* header start */
+    .menu ul li a {
+        align-items: center;
+        padding: 10px 0 0px !important;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .dpd_a {
+        margin-left: 474px;
+        border: none;
+    }
+    .dpd_menu[data-bs-popper] {
+        top: -8px;
+        left: 175px;
+        margin-top: 0;
+    }
+    .menu ul li a {
+        padding: 17px 0 0px !important;
+        text-align: right;
+    }
+    .dpd_submit {
+        margin-top: 6px;
+    }
+    /* header end */
+    /* slider section start here*/
+    .sli_title {
+        font-size: 23px;
+    }
+    .slider_para {
+        padding: 70px 0;
+    }
+    .slider_text {
+        margin: 20px 0 34px;
+        padding-right: 220px;
+    }
+
+    /* slider section end here */
+    /* about us section start here */
+    .c_padding{
+        padding: 60px 0 80px;
+    }
+    .about_img img {
+        height: 420px;
+    }
+    .about_title {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+    .about_btn {
+        width: 235px;
+        margin-left: 154px;
+    }
+    /* about us section end here */
+    /* categories section start here */
+    .categories{
+        padding-top: 0;
+    }
+    .c_img{
+        margin-top: 15px;
+    }
+    .c_img{
+        margin:40px;
+    }
+    /* categories section end here */
+    /* products section start */
+    .products_single {
+        margin: 30px 50px 0;
+    }
+    /* products section end  */
+    /* contact start here */
+    .contact {
+        height: 765px;
+    }
+    .contact .container{
+        height: 0;
+    }
+    .contact_btn {
+        width: 220px;
+        margin-left: 135px;
+    }
+    .contact_text {
+        margin-right: 0;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .contact_input {
+        width: 100%;
+    }
+    #col {
+        width: 100%;
+        background-color: var(--bg);
+    }
+    /* contact end here */
+    
+     /* footer start */
+     .ftop_para {
+        padding: 0 57px;
+    }
+    .fbottom_links {
+        padding: 0px;
+    }
+    .ftop_title {
+        padding: 0 0 0px;
+    }
+    .fbottom_left {
+        margin-left: 80px;
+    }
+    .single_right {
+        margin: 33px 112px 0 0;
+    }
+    /* footer end */
+      
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start */
+    .menu ul li a {
+        padding: 10px 0 0px !important;
+        text-align: center;
+        margin-top: 10px;
+    }   
+    /* header end */
+    /* slider section start here*/
+    .sli_title {
+        font-size: 25px;
+    }
+    .slider_para {
+        padding: 80px 0;
+    }
+    .slider_text {
+        margin: 20px 0 40px;
+        padding-right: 330px;
+    }
+
+    /* slider section end here */
+    /* about us section start here */
+    .c_padding{
+        padding: 60px 0 80px;
+    }
+    .about_img img {
+        height: 420px;
+    }
+    .about_title {
+        font-size: 25px;
+    }
+    /* about us section end here */
+    /* contact start here */
+    .contact {
+       
+    }
+    .contact_title {
+        text-align: left;
+    }
+    .contact_text {
+        margin-right: 22px;
+        font-weight: 500;
+    }
+    
+    /* contact end here */
+
+    /* blog section start */
+    .blog_img img {
+        height: 200px;
+    }
+    .b_title {
+        font-size: 20px;
+    }
+    .b_addre {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .b_text{
+        font-size: 15px;
+    }
+    .b_btn {
+        margin-left: 5px;
+        width: 185px;
+    }
+    /* blog section end */
+
+        /* footer start */
+        .ftop_para {
+            padding: 0 130px;
+        }
+        .fbottom_links {
+            padding: 0px;
+        }
+        /* footer end */
+   
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .menu ul li a {
+        margin-left: 25px;
+    }
+    /* contact start */
+    .contact_input {
+        margin-top: 20px;
+        width: 468px;
+    }
+    /* contact end */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+    /* header start */
+    .menu ul li a {
+        margin-left: 30px;
+    }
+    /* header end */
+    /* contact start */
+    .contact_input {
+        margin-top: 20px;
+        width: 525px;
+    }
+    /* contact end */
+    
+    /* footer start */
+    .ftop_para {
+        padding: 0 83px;
+    }
+    /* footer end */
+}

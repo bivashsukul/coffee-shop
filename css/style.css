@@ -1,0 +1,386 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+:root{
+    --lato: "Lato", sans-serif;
+    --rob: "Roboto", sans-serif;
+    --fs:16px;
+    --fw:400;
+    --as:#ffffff;
+    --black:#333333;
+    --bg:#d88b27;
+}
+body{
+    transition: .50s;
+    box-sizing: border-box;
+    font-family: var(--rob);
+    font-size: var(--fs);
+    font-weight: var(--fwr);
+    color: var(--black);
+    
+}
+/* header section start here */
+.header{
+    background-color: var(--bg);
+}
+.c_nav{}
+.navbar_btn{}
+.logo{
+    width: 50px;
+}
+.menu{}
+
+.menu ul li a {
+    margin-left: 9px;
+    font-family: var(--rob);
+    font-size: var(--fs);
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(15, 14, 14) !important;
+}
+.menu ul li a:hover{
+    border-radius: 4px;
+    background-color: var(--as);
+    color: var(--black) !important;
+    font-weight: 500;
+}
+.serch{
+
+}
+.s_btn{
+    padding: 0 8px !important;
+    background-color: rgb(144, 80, 80);
+}
+/* header section end here end */
+
+/* slider section start here */
+    .slider{
+        color: var(--as);
+        background-image: url(../images/background.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .slider{}
+    .caro_s{}
+    .slider_para{
+        padding: 100px 0;
+    }
+    .sli_title{
+       font-size: 30px;
+       font-weight: 500;
+       
+
+    }
+    .slider_text {
+        margin: 20px 0 40px;
+        padding-right: 100px;
+    }
+    .c_btn{
+        text-transform: uppercase;
+        border: 0;
+    }
+    .slide_btn{
+     background-color: var(--as);
+    }
+    .slide_btn:hover{
+        background-color:var(--bg) ;
+        color: #ffffff;
+    }
+
+
+/* slider section end here */
+/* about us section start here */
+.c_padding{
+    padding: 80px 0 100px;
+}
+.about{}
+.c_title{}
+.c_title span{
+    color: var(--bg);
+}
+.about_img{}
+.about_img img {
+    border-radius: 15px;
+    height: 468px;
+}
+.c_title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.about_title{
+    font-size: 30px;
+}
+.about_text{
+    
+}
+.about_btn{
+    font-weight: 500;
+    border: 2px solid var(--bg);
+    color: var(--bg);
+}
+.about_btn:hover{
+    color: var(--as);
+    background-color: var(--bg);
+}
+/* about us section end here */
+
+/* categories section start here */
+.categories{
+    padding-top: 0;
+}
+.categories_title{
+    margin-bottom: 0;
+}
+.c_img{
+    margin-top: 30px;
+}
+.c_img:hover{
+    box-shadow: 1px 1px 20px var(--bg);
+    scale: .99;
+    border-radius: 15px;
+}
+.c_img img{
+    border-radius: 15px;
+}
+/* categories section end here */
+
+/* menu section start here */
+.arrow{
+    background-color: var(--bg);
+    width: 100%;
+    height: 3px;
+}
+/* 2nd row */
+.menu_single{
+    margin-top: 25px;
+    box-shadow: 1px 1px 5px var(--black);
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.menu_single:hover{
+    transition: 1s;
+    box-shadow: 1px 1px 30px var(--bg) ;
+    scale: .98;
+}
+.menu_img{
+    
+}
+.menu_img img{}
+.star{}
+.star ul{
+    color: var(--bg);
+    text-align: center;
+    margin-top: 27px;
+}
+.star ul li{}
+.m_title {
+    margin: 10px 0;
+    color: var(--bg);
+    font-weight: 400;
+    text-align: center;
+}
+.overflow-hidden{
+    margin: 0 10px;
+}
+.float-start{
+    color: var(--bg);
+}
+.float-end{
+    color: var(--bg);
+}
+/* menu section end here */
+/* products section satrt here */
+.products{
+    padding-bottom: 0;
+}
+.products_single{}
+.products_img{}
+.products_img img{}
+.Products_title{
+    margin: 20px 0;
+}
+/* products section end here */
+/* gallary section start here */
+.gallary{
+    padding-bottom: 0;
+}
+.gallary_title{
+    
+}
+.gallary_single{}
+.gallary_img{}
+.gallary_img img{
+    border-radius: 5px;
+}
+
+/* gallary section end here */
+
+
+
+/* contact section start here */
+.contact{
+    width: 100%;
+    padding-top: 70px;
+   /* position: relative; */
+}
+.contact .container{
+    width: 100%;
+    height: 356px;
+    border-radius: 10px;
+    background:linear-gradient(90deg,white 80%, #d88b27 20%);
+}
+.contact_title{}
+.left{
+
+}
+.contact_text {
+    margin-right: 162px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.contact_input {
+    margin-top: 20px;
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid var(--bg);
+    border-radius: 0;
+}
+.form-control:focus {
+    background-color: 0;
+     box-shadow:none;
+}
+
+#col {
+    color: #ffffff;
+    width: 40%;
+    height: 285px;
+    margin-top: 35px;
+    background-color: black;
+    border-radius: 5px;
+}
+.contact_btn{
+    border: .5px solid;
+    margin-top: 50px;
+    background-color: var(--bg);
+}
+.contact_btn:hover {
+    background-color: var(--bg);
+    color: var(--as);
+}
+/* contact section end here */
+
+/* blog section start here */
+.blog {
+    padding-bottom: 25px;
+}
+.blog_single{}
+.blog_img{}
+.blog_img img {
+    height: 240px;
+}
+.b_body{
+    margin-left: 5px;
+}
+.b_title{}
+.b_text{}
+.b_addre{
+    color: var(--bg);
+}
+.b_btn {
+    margin: 0 0 12px;
+    /* margin-left: 60px; */
+    width: 100%;
+    background-color: var(--bg);
+    border-radius: 2px;
+}
+.b_btn:hover {
+    background-color: var(--bg);
+    color: var(--as);
+}
+/* blog section end here */
+
+/* footer section start here */
+.footer{
+   background-color: var(--bg);
+}
+.f_link{
+    padding: 20px 0;
+}
+.list-inline-item_foot a {
+    padding: 10px;
+    color: #ffffff;
+    font-size: 26px;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.list-inline-item_foot a:hover {
+    color: var(--black);
+    background-color: #ffffff;
+}
+
+.f_title{
+    color: var(--as);
+}
+.spa{font-weight: 700;
+    color: black;
+}
+.futt_link{
+    font-weight: 700;
+    color:black;
+    text-decoration: none;
+}
+
+/* footer section end here */
+html{
+    scroll-behavior: smooth;
+}
+.arrows{
+    scroll-behavior: smooth;
+    position: fixed;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.arrows i {
+    border-radius: 30px;
+    font-size: 50px;
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
